@@ -1,0 +1,113 @@
+
+.componentePeticion{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.contSolicitarPeticion{
+    display: flex;
+}
+
+.contSolicitarPeticion div{
+    margin: 1em;
+}
+
+.containerPeticion{
+    background-color: #191E29;
+    padding: 1em;
+    border-radius: 16px;
+}
+
+h2{
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    color: #FFFFFF;
+    margin-bottom: 0.5em;
+}
+
+.label{
+    color: #01C38D;
+    font-family: 'Bebas Neue';
+    font-size: 1.5em;
+}
+
+.inputText{
+    background-color: #132D46;
+    font-family: 'monospace';
+    font-size: 16px;
+    padding: 0.5em;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+}
+
+.inputText:focus{
+    outline-color: #01C38D;
+    outline-width: 2px;
+}
+
+.inputSubmit{
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 15px;
+    border:0px;
+    background-color: #01C38D;
+    color: #191E29;
+    font-family: monospace;
+    font-size: 1,5em;
+    font-weight: bold;
+    width: 100%;
+}
+
+.inputSubmit:hover{
+    color:#FFFFFF;
+}
+
+.inputSubmit:active{
+    color:#191E29;
+}
+
+.containerAyuda{
+    background-color: #191E29;
+    padding: 1.5em;
+    border-radius: 16px;
+}
+
+.parrafoAyuda{
+    color: #01C38D;
+    margin-bottom: 16px;
+    text-align: justify;
+    max-width: 600px;
+}
+
+.imagenAyuda{
+    max-width: 600px;
+}
+
+.peticionesPendientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191E29;
+    padding: 1em;
+    border-radius: 16px;
+    min-width: 80%;
+}
+
+.titulo{
+    font-family: 'Bebas Neue';
+    color: #5C8B7B;
+    font-size: 1.1em;
+    font-weight: lighter;
+    padding: 8px;
+}
+
+.peticion{
+    color: #FFFFFF;
+    font-family: 'sans-serif';
+    font-size: 1.1em;
+    padding: 8px;
+}
